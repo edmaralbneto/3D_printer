@@ -18,15 +18,15 @@ header {
 /* usar essa linha para mexer no que tem dentro das caixas */
 .menu a {
 text-decoration: none;
-color: #0c0c0c;
+color: hsl(0, 0%, 100%);
 padding: 5px;
 font-size: 1.5em;
-background-color: #00ffff;
 margin-left: 40px;
 border-radius: 10%;
 border: 2px solid #036085;
 border-right: 4px solid rgb(3, 150, 150);
 border-bottom: 4px solid rgb(3, 150, 150);
+background-image: linear-gradient(to left, rgb(1, 94, 94) , rgb(0, 0, 0));
 }
 
 main {
@@ -41,13 +41,11 @@ main {
 }
 
 p {
-    color: #000000;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     font-size: large;
 }
-
-
 
 h1, h2, h3 {
     color: #ffffff;
@@ -62,18 +60,26 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: larger;
+    background-image: linear-gradient(to right, rgb(0, 139, 139) , rgb(0, 0, 0));
+
+
+
 }
 
 #serviço {
     display: flex;
     justify-content: center;
     font-size: xx-large;
-    margin-top: 14%;
- 
+    margin-top: 14%; 
+    
 }
 
 #img1 {
     border-radius: 15%;
+    border-bottom: 7px solid #000000;
+    border-right: 7px solid #000000;
+    border-left: 3px solid #000000;
 }
 
 section, footer {
@@ -84,7 +90,7 @@ section, footer {
 
 #about p {
     color: #ffffff;
-    justify-self: center;
+    justify-content: center;
     display: flex;
     text-align: center;
 
@@ -99,8 +105,8 @@ section, footer {
     border-radius: 5px;
     border-bottom: 5px solid #000000;
     border-right: 5px solid #000000;
-    border-top: 2px solid #000000;
-    border-left: 2px solid #000000;
+    border-top: 3px solid #000000;
+    border-left: 3px solid #000000;
 
 }
 
@@ -108,6 +114,6 @@ section, footer {
 footer {
     text-align: center;
     padding: 20px;
-    background: #03e2ff;
+    background-image: linear-gradient(to left, rgb(2, 255, 255) , rgb(0, 0, 0));
 }
 
