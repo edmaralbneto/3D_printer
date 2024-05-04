@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background: #030000;
+    background-image: linear-gradient(to left, #000 , #333);
 }
 /* usar para mmexer na linha toda  */
 header {
